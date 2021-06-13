@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Curiosity Group Chrome extension",
+    "description": "A general help extension to expedite daily tasks",
+    "version": "1.0",
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "webRequest"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "19": "/images/One-Cog-Device-19px.png",
+            "38": "/images/One-Cog-Device-38px.png",
+            "48": "/images/One-Cog-Device-48px.png",
+            "128": "/images/One-Cog-Device-128px.png"
+        }
+    },
+    "icons": {
+        "19": "/images/One-Cog-Device-19px.png",
+        "38": "/images/One-Cog-Device-38px.png",
+        "48": "/images/One-Cog-Device-48px.png",
+        "128": "/images/One-Cog-Device-128px.png"
+      }
+  }
